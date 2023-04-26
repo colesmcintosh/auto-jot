@@ -78,6 +78,13 @@ def split_large_audio_file(file_path, max_size_mb=20):
         else:
             return [(file_path,)]  # return the original file path as a single-item list
 
+st.set_page_config(
+    page_title="AutoJot",
+    page_icon="📝",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
 
 st.title("AutoJot 📝")
 
