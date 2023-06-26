@@ -2,6 +2,10 @@
 
 AutoJot is an application that automates note-taking by transcribing audio files and generating insightful notes from the transcriptions. It uses the OpenAI Whisper ASR API to transcribe the audio and the GPT-4 model to generate notes, including summaries, key points, and action items.
 
+Live demo: https://autojot.onrender.com/
+
+> **Note:** The live demo may be slow to load due to the free hosting service. If you experience any issues, please try running the app locally.
+
 ## Features
 
 - Supports multiple audio formats (mp3, mp4, mpeg, mpga, m4a, wav, webm)
